@@ -1,0 +1,17 @@
+.jumbo {
+    background: url("/assets/imgs/car.jpg") no-repeat;
+    background-size: 100% 100%;
+    height: 400px;
+    z-index: -2;
+}
+
+.jumbotron-text {
+    padding:5px;
+    background-color: white;
+    opacity: 0.8;
+    font-size: 1.5rem;
+    border-radius: 25px;
+}
+.jumbotron-header {
+    font-size: 3rem;
+}
