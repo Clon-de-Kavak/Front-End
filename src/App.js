@@ -10,6 +10,7 @@ import ColorFilter from './components/ColorFilter';
 import PriceFilter from './components/PriceFilter';
 import MileageFilter from './components/MileageFilter';
 import TransmissionFilter from './components/TransmissionFilter';
+import FilterMechanism from './components/FilterMechanism';
 import Routes from './Routes';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -35,6 +36,8 @@ function App() {
           <MileageFilter />
           <h1>Transmission Filter</h1>
           <TransmissionFilter />
+          <h1>Filter Mechanism</h1>
+          <FilterMechanism />
         </Layout>
       </div>
     </BrowserRouter>
