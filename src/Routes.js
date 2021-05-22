@@ -11,7 +11,7 @@ export default () => (
     <Route exact path="/" component={Home} />
     <Route path="/services" component={Services} />
     <Route path="/contact" component={Contact} />
-    <Route path="/formcard" component={FormCar} />
+    <Route path="/formcar" component={FormCar} />
     <Route component={NotFound} />
   </Switch>
 );
